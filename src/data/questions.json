@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "anime": "Watamote",
+    "difficulty": "easy",
+    "question": "What is the name of the main character?",
+    "answers": {
+      "A": "Tamako",
+      "B": "Chika",
+      "C": "Ichika",
+      "D": "Tomoko"
+    },
+    "correctAnswer": "D"
+  },
+  {
+    "id": 2,
+    "anime": "Naruto",
+    "difficulty": "easy",
+    "question": "B",
+    "answers": {
+      "A": "Tamako",
+      "B": "Chika",
+      "C": "Ichika",
+      "D": "Tomoko"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "id": 3,
+    "anime": "Watamote",
+    "difficulty": "easy",
+    "question": "C",
+    "answers": {
+      "A": "Tamako",
+      "B": "Chika",
+      "C": "Ichika",
+      "D": "Tomoko"
+    },
+    "correctAnswer": "C"
+  },
+  {
+    "id": 4,
+    "anime": "Watamote",
+    "difficulty": "medium",
+    "question": "D",
+    "answers": {
+      "A": "Tamako",
+      "B": "Chika",
+      "C": "Ichika",
+      "D": "Tomoko"
+    },
+    "correctAnswer": "D"
+  },
+  {
+    "id": 5,
+    "anime": "Watamote",
+    "difficulty": "medium",
+    "question": "B",
+    "answers": {
+      "A": "Tamako",
+      "B": "Chika",
+      "C": "Ichika",
+      "D": "Tomoko"
+    },
+    "correctAnswer": "B"
+  },
+  {
+    "id": 6,
+    "anime": "Watamote",
+    "difficulty": "hard",
+    "question": "A",
+    "answers": {
+      "A": "Tamako",
+      "B": "Chika",
+      "C": "Ichika",
+      "D": "Tomoko"
+    },
+    "correctAnswer": "A"
+  },
+  {
+    "id": 7,
+    "anime": "Watamote",
+    "difficulty": "easy",
+    "question": "A",
+    "answers": {
+      "A": "Tamako",
+      "B": "Chika",
+      "C": "Ichika",
+      "D": "Tomoko"
+    },
+    "correctAnswer": "A"
+  },
+  {
+    "id": 8,
+    "anime": "Watamote",
+    "difficulty": "easy",
+    "question": "A",
+    "answers": {
+      "A": "Tamako",
+      "B": "Chika",
+      "C": "Ichika",
+      "D": "Tomoko"
+    },
+    "correctAnswer": "A"
+  }
+
+]

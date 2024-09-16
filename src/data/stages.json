@@ -1,0 +1,64 @@
+[
+  {
+    "id": 10,
+
+    "reward": "2 special stickers + 1 poster",
+    "difficulty": "hard",
+    "checkpoint": false
+  },
+  {
+    "id": 9,
+    "reward": "2 stickers + 1 poster",
+    "difficulty": "hard",
+    "checkpoint": false
+  },
+  {
+    "id": 8,
+    "reward": "3 stickers",
+    "difficulty": "medium",
+    "checkpoint": false
+  },
+  {
+    "id": 7,
+    "reward": "1 special sticker + 1 poster",
+    "difficulty": "medium",
+    "checkpoint": false
+  },
+  {
+    "id": 6,
+    "reward": "2 stickers",
+    "difficulty": "medium",
+    "checkpoint": false
+  },
+  {
+    "id": 5,
+    "reward": "1 poster",
+    "difficulty": "medium",
+    "checkpoint": true
+  },
+  {
+    "id": 4,
+    "reward": "2 special stickers",
+    "difficulty": "medium",
+    "checkpoint": false
+  },
+  {
+    "id": 3,
+    "reward": "2 stickers",
+    "difficulty": "easy",
+    "checkpoint": false
+  },
+  {
+    "id": 2,
+    "reward": "1 special sticker",
+    "difficulty": "easy",
+    "checkpoint": false
+  },
+  {
+    "id": 1,
+    "reward": "1 sticker",
+    "difficulty": "easy",
+    "checkpoint": true
+  }
+
+]
