@@ -24,6 +24,8 @@ function GamePage() {
     getAQuestion("easy");
     setGameState("onGoing");
     restartStage();
+    setConfirmation(false);
+    setDisplayConfirmation(false);
   };
 
   return (
