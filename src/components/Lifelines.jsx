@@ -19,7 +19,7 @@ function Lifelines({lifeline5050}) {
     const handlePAFClick = () => setIsPAFUsed(true)
 
     return (
-        <div className="flex pb-5 gap-8">
+        <div className="row-start-1 flex pb-5 gap-8">
             {
                 !is5050Used ?
                     <img onClick={handle5050Click} className="max-w-28" src={L5050} alt="5050"/> :
