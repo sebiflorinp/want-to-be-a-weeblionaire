@@ -29,7 +29,7 @@ function GamePage() {
   };
 
   return (
-    <div className="grid h-screen w-screen grid-cols-3 grid-rows-3 gap-8">
+    <div className="grid h-screen w-screen grid-cols-3 grid-rows-3 gap-8 bg-game-image bg-no-repeat bg-contain">
       {gameState !== "onGoing" && (
         <ResultModal
           handleRestart={handleRestart}
