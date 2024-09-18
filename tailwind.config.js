@@ -4,8 +4,8 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        "game-image": "url(./src/assets/Game_BG.png)",
-        "title-image": "url(./src/assets/Alter_Title_Screen.png)",
+        "game-image": "url(./assets/Game_BG.png)",
+        "title-image": "url(./assets/Alter_Title_Screen.png)",
       },
     },
   },
