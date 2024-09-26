@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function MainPage() {
   return (
-    <div className="flex h-screen w-screen justify-start items-end pl-72 2xl:pl-96 pb-5 2xl:pb-14 bg-title-image bg-cover bg-no-repeat bg-center">
+    <div className="flex h-screen w-screen justify-start items-end pl-72 2xl:pl-96 pb-6 2xl:pb-14 bg-title-image bg-cover bg-no-repeat bg-center">
       <Link
         to="/game"
         className="rounded-xl bg-gradient-to-r from-gray-800 via-gray-400 to-gray-600 p-1.5"
