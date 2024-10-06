@@ -5,6 +5,7 @@ import arrayRandomizer from "../utils/arrayRandomizer.js";
 
 export function useQuestions() {
     const [questions, setQuestions] = useState(questionsJSON);
+    const [usedAnimes, setUsedAnimes] = useState([]);
     const [currentQuestion, setCurrentQuestion] = useState(null);
     const getAQuestion = (difficulty) => {
         // Get a question with the chosen difficulty
@@ -17,13 +18,27 @@ export function useQuestions() {
             questionsToChooseFrom = allQuestionsOfACertainDifficulty;
         }
 
+        // Filter questions by animes
+        let temporaryQuestions = questionsToChooseFrom.filter(question => !usedAnimes.includes(question.anime));
+
+        // Check if there are any questions left, if not reset the list of animes
+        if (temporaryQuestions.length === 0) {
+            setUsedAnimes([])
+        } else {
+           questionsToChooseFrom = temporaryQuestions
+        }
+
         // Choose a random question from the ones that have the right difficulty
         questionsToChooseFrom = arrayRandomizer(questionsToChooseFrom)
-        console.log(questionsToChooseFrom);
+        let chosenQuestion = questionsToChooseFrom[0]
+        let usedAnime = questionsToChooseFrom[0].anime
         setCurrentQuestion(questionsToChooseFrom[0])
 
         // Get rid of the chosen question from the list of questions available
         setQuestions(prevQuestions => prevQuestions.filter(question => question.id !== questionsToChooseFrom[0].id))
+
+        // Put the anime in the used list
+        setUsedAnimes(prevAnimes => [usedAnime, ...prevAnimes])
     }
 
     const u5050Lifeline = () => {

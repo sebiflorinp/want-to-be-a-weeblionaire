@@ -5,8 +5,8 @@ export function useStages() {
     const [stages, setStages] = useState(STAGES)
     const [currentStage, setCurrentStage] = useState(stages[9])
 
-
     const nextStage = () => {
+        console.log(currentStage)
         if (currentStage.id < stages.length) {
             setCurrentStage(stages[9 - currentStage.id])
         }
