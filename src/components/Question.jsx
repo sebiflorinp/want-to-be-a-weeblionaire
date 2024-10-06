@@ -46,7 +46,7 @@ function Question({
       <div className="bg-gradient-to-r from-gray-800 via-gray-400 to-gray-600 p-1.5 rounded-xl col-span-2 row-span-2 row-start-1">
         <div className="text-2xl font-semibold h-full w-full bg-gradient-to-r from-slate-900 via-blue-900 to-slate-900 text-white rounded-xl flex justify-center items-center">
           <p>
-            {question.id} {question.question}
+            {question.question}
           </p>
         </div>
       </div>

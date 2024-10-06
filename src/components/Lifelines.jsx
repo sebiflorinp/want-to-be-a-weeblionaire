@@ -4,12 +4,18 @@ import ATA from "../assets/ATA.webp"
 import ATAUsed from "../assets/ATAused.webp"
 import PAF from "../assets/PAF.webp"
 import PAFUsed from "../assets/PAFused.webp"
-import {useState} from "react";
+import {useContext, useState} from "react";
+import {LifelinesContext} from "../contexts/LifelinesContext.jsx";
 
 function Lifelines({lifeline5050}) {
-    const [is5050Used, setIs5050Used] = useState(false)
-    const [isATAUsed, setIsATAUsed] = useState(false)
-    const [isPAFUsed, setIsPAFUsed] = useState(false)
+    const {
+        is5050Used,
+        isATAUsed,
+        isPAFUsed,
+        setIs5050Used,
+        setIsATAUsed,
+        setIsPAFUsed
+    } = useContext(LifelinesContext);
 
     const handle5050Click = () => {
         setIs5050Used(true)

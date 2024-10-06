@@ -1,9 +1,10 @@
-import { useEffect, useState } from "react";
+import {useContext, useEffect, useState} from "react";
 import { useQuestions } from "../hooks/useQuestions.jsx";
 import { useStages } from "../hooks/useStages.jsx";
 import ResultModal from "../components/ResultModal.jsx";
 import Question from "../components/Question.jsx";
 import Stages from "../components/Stages.jsx";
+import {LifelinesContext} from "../contexts/LifelinesContext.jsx";
 
 function GamePage() {
   const [gameState, setGameState] = useState("onGoing");
@@ -11,6 +12,7 @@ function GamePage() {
   const [displayConfirmation, setDisplayConfirmation] = useState(false);
   const { currentQuestion, u5050Lifeline, getAQuestion } = useQuestions();
   const { currentStage, nextStage, restartStage, getRewards } = useStages();
+  const { setIs5050Used, setIsATAUsed, setIsPAFUsed } = useContext(LifelinesContext)
 
   useEffect(() => {
     getAQuestion("easy");
@@ -26,6 +28,9 @@ function GamePage() {
     restartStage();
     setConfirmation(false);
     setDisplayConfirmation(false);
+    setIs5050Used(false);
+    setIsATAUsed(false);
+    setIsPAFUsed(false);
   };
 
   return (

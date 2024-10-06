@@ -1,107 +1,627 @@
 [
   {
     "id": 1,
-    "anime": "Watamote",
+    "anime": "Naruto",
     "difficulty": "easy",
-    "question": "What is the name of the main character?",
+    "question": "Who is the protagonist of the anime Naruto?",
     "answers": {
-      "A": "Tamako",
-      "B": "Chika",
-      "C": "Ichika",
-      "D": "Tomoko"
+      "A": "Sakura",
+      "B": "Luffy",
+      "C": "Naruto",
+      "D": "Goku"
     },
-    "correctAnswer": "D"
+    "correctAnswer": "C"
   },
+
   {
     "id": 2,
     "anime": "Naruto",
     "difficulty": "easy",
-    "question": "B",
+    "question": "What power did Naruto acquire during the Pain attack on The Hidden Leaf Village?",
     "answers": {
-      "A": "Tamako",
-      "B": "Chika",
-      "C": "Ichika",
-      "D": "Tomoko"
+      "A": "Mangekyo Sharingan",
+      "B": "Six Eyes",
+      "C": "Rinnegan",
+      "D": "Sage Mode"
+    },
+    "correctAnswer": "D"
+  },
+
+  {
+    "id": 3,
+    "anime": "Hunter x Hunter",
+    "difficulty": "medium",
+    "question": "Who is the author of 'Hunter x Hunter'?",
+    "answers": {
+      "A": "Hirohiko Araki",
+      "B": "Yusuke Murata",
+      "C": "Yoshihiro Togashi",
+      "D": "Hirohiko Araki"
+    },
+    "correctAnswer": "C"
+  },
+
+  {
+    "id": 4,
+    "anime": "Inu X Boku SS",
+    "difficulty": "final",
+    "question": "In Inu X Boku SS, what is the main character's name?",
+    "answers": {
+      "A": "Shirakiin Ririchiyo",
+      "B": "Natsume Zange",
+      "C": "Yukinokouji Nobara",
+      "D": "Shoukiin Kagerou"
+    },
+    "correctAnswer": "A"
+  },
+
+  {
+    "id": 5,
+    "anime": "Konosuba",
+    "difficulty": "easy",
+    "question": "In Konosuba, what is Kazuma's best stat?",
+    "answers": {
+      "A": "Strength",
+      "B": "Intelligence",
+      "C": "Luck",
+      "D": "Endurance"
+    },
+    "correctAnswer": "C"
+  },
+
+  {
+    "id": 6,
+    "anime": "Demon Slayer",
+    "difficulty": "easy",
+    "question": "Who is the strongest Hashira?",
+    "answers": {
+      "A": "Rengoku",
+      "B": "Gyomei",
+      "C": "Giyu",
+      "D": "Uzui"
     },
     "correctAnswer": "B"
   },
+
   {
-    "id": 3,
-    "anime": "Watamote",
-    "difficulty": "easy",
-    "question": "C",
+    "id": 7,
+    "anime": "K-ON!",
+    "difficulty": "medium",
+    "question": "Which anime series features a group of high school students forming a music band called 'Hokago Tea Time'?",
     "answers": {
-      "A": "Tamako",
-      "B": "Chika",
-      "C": "Ichika",
-      "D": "Tomoko"
+      "A": "K-ON",
+      "B": "Bocchi the Rock",
+      "C": "The Melancholy of Haruhi Suzumiya",
+      "D": "BanG Dream!"
+    },
+    "correctAnswer": "A"
+  },
+
+  {
+    "id": 8,
+    "anime": "My Hero Academia",
+    "difficulty": "easy",
+    "question": "Which anime series features a world where everyone is born with a unique superpower called 'Quirk'?",
+    "answers": {
+      "A": "Tokyo Ghoul",
+      "B": "Black Clover",
+      "C": "Edens Zero",
+      "D": "My Hero Academia"
+    },
+    "correctAnswer": "D"
+  },
+
+  {
+    "id": 9,
+    "anime": "Hajime No Ippo",
+    "difficulty": "medium",
+    "question": "Which sport appears in the 'Hajime No Ippo' manga series?",
+    "answers": {
+      "A": "Cycling",
+      "B": "Boxing",
+      "C": "Soccer",
+      "D": "Archery"
+    },
+    "correctAnswer": "B"
+  },
+
+  {
+    "id": 10,
+    "anime": "Fullmetal Alchemist",
+    "difficulty": "easy",
+    "question": "What color is Lust's hair from the anime 'Fullmetal Alchemist: Brotherhood'",
+    "answers": {
+      "A": "Black",
+      "B": "Red",
+      "C": "Blonde",
+      "D": "White"
+    },
+    "correctAnswer": "A"
+  },
+
+  {
+    "id": 11,
+    "anime": "One Piece",
+    "difficulty": "hard",
+    "question": "What is the name of the first ship that the Straw Hat Pirates used to sail the seas in the 'One Piece' manga series?",
+    "answers": {
+      "A": "Queen Mama Chanter",
+      "B": "Thriller Bark",
+      "C": "Going Merry",
+      "D": "Thousand Sunny"
+    },
+    "correctAnswer": "C"
+  },
+
+  {
+    "id": 12,
+    "anime": "Naruto",
+    "difficulty": "easy",
+    "question": "What type of food does Naruto Uzumaki love the most?",
+    "answers": {
+      "A": "Salata de Beouf",
+      "B": "Curry",
+      "C": "Ramen",
+      "D": "Onigiri"
+    },
+    "correctAnswer": "C"
+  },
+
+  {
+    "id": 13,
+    "anime": "Konosuba",
+    "difficulty": "medium",
+    "question": "What is the name of the town where Kazuma and Aqua first arrive?",
+    "answers": {
+      "A": "Arcanletia",
+      "B": "Kingdom of Elroad",
+      "C": "Crimson Demon Village",
+      "D": "Axel"
+    },
+    "correctAnswer": "D"
+  },
+
+  {
+    "id": 14,
+    "anime": "Vinland Saga",
+    "difficulty": "easy",
+    "question": "Who is responsible for killing Thorfinn's father, Thors?",
+    "answers": {
+      "A": "Canute",
+      "B": "Askeladd",
+      "C": "Thorkell",
+      "D": "Bjorn Ironside"
+    },
+    "correctAnswer": "B"
+  },
+
+  {
+    "id": 15,
+    "anime": "Vinland Saga",
+    "difficulty": "easy",
+    "question": "Who becomes the king of England during the events of 'Vinland Saga'?",
+    "answers": {
+      "A": "Sweyn Forkbeard",
+      "B": "Harold Godwinson",
+      "C": "Canute",
+      "D": "William the Conqueror"
+    },
+    "correctAnswer": "C"
+  },
+
+  {
+    "id": 16,
+    "anime": "Attack on Titan",
+    "difficulty": "hard",
+    "question": "What is the name of the town where Eren lived at the beggining of 'Attack on Titan'?",
+    "answers": {
+      "A": "Ehrmich District",
+      "B": "Trost District",
+      "C": "Shiganshina District",
+      "D": "Paradis Island"
+    },
+    "correctAnswer": "C"
+  },
+
+  {
+    "id": 17,
+    "anime": "Attack on Titan",
+    "difficulty": "easy",
+    "question": "What military branch does Eren Yeager join to fight the Titans?",
+    "answers": {
+      "A": "Queen's Guard Regiment",
+      "B": "Military Police Regiment",
+      "C": "Garrison Regiment",
+      "D": "Scout Regiment"
+    },
+    "correctAnswer": "D"
+  },
+
+  {
+    "id": 18,
+    "anime": "Attack on Titan",
+    "difficulty": "medium",
+    "question": "What is the name of the secret society aiming to overthrow the monarchy within the Walls?",
+    "answers": {
+      "A": "Survey Corps",
+      "B": "Eldian Restorationists",
+      "C": "Marleyan Warriors",
+      "D": "Anti-Titan Movement"
+    },
+    "correctAnswer": "B"
+  },
+
+  {
+    "id": 19,
+    "anime": "Solo Leveling",
+    "difficulty": "easy",
+    "question": "In the world of 'Solo Leveling,' what are individuals who possess the ability to level up called?",
+    "answers": {
+      "A": "Awakened",
+      "B": "Evokers",
+      "C": "Hunters",
+      "D": "Guardians"
+    },
+    "correctAnswer": "C"
+  },
+
+  {
+    "id": 20,
+    "anime": "Solo Leveling",
+    "difficulty": "medium",
+    "question": "What is the name of the organization that oversees hunters in 'Solo Leveling'?",
+    "answers": {
+      "A": "Korean Hunter Association",
+      "B": "International Guild Council",
+      "C": "World Hunter Agency",
+      "D": "Hunters Union"
+    },
+    "correctAnswer": "A"
+  },
+
+  {
+    "id": 21,
+    "anime": "Chainsaw Man",
+    "difficulty": "easy",
+    "question": "What is the name of Power and Denji's mentor?",
+    "answers": {
+      "A": "Aki Hayakawa",
+      "B": "Kishibe",
+      "C": "Himeno",
+      "D": "Makima"
+    },
+    "correctAnswer": "B"
+  },
+
+  {
+    "id": 22,
+    "anime": "Chainsaw Man",
+    "difficulty": "medium",
+    "question": "Who is the main antagonist of the first arc in 'Chainsaw Man'?",
+    "answers": {
+      "A": "Reze",
+      "B": "Blood Devil",
+      "C": "Santa Claus Devil",
+      "D": "Eternity Devil"
+    },
+    "correctAnswer": "D"
+  },
+
+  {
+    "id": 23,
+    "anime": "Initial D",
+    "difficulty": "medium",
+    "question": "In what prefecture does most of the racing take place in 'Initial D'?",
+    "answers": {
+      "A": "Gunma",
+      "B": "Tokyo",
+      "C": "Kanagawa",
+      "D": "Chuba"
+    },
+    "correctAnswer": "A"
+  },
+
+  {
+    "id": 24,
+    "anime": "Initial D",
+    "difficulty": "easy",
+    "question": "What type of car does the protagonist drive in the anime 'Initial D'?",
+    "answers": {
+      "A": "Honda S2000",
+      "B": "Mazda RX-7",
+      "C": "Toyota AE86",
+      "D": "Subaru Impreza WRX STI"
+    },
+    "correctAnswer": "C"
+  },
+
+  {
+    "id": 25,
+    "anime": "Frieren: Beyond Journey's End",
+    "difficulty": "easy",
+    "question": "What does Frieren say to Aura after her mana outweighs Aura's on the Scales of Obedience?",
+    "answers": {
+      "A": "Commit sudoku",
+      "B": "Become my slave",
+      "C": "Keep yourself safe",
+      "D": "Kill yourself"
+    },
+    "correctAnswer": "D"
+  },
+
+  {
+    "id": 26,
+    "anime": "Jujutsu Kaisen",
+    "difficulty": "hard",
+    "question": "In 'Jujutsu Kaisen', who is the principal of Tokyo Jujutsu High School?",
+    "answers": {
+      "A": "Kento Nanami",
+      "B": "Masamichi Yaga",
+      "C": "Suguru Geto",
+      "D": "Panda"
+    },
+    "correctAnswer": "B"
+  },
+
+  {
+    "id": 27,
+    "anime": "Jujutsu Kaisen",
+    "difficulty": "easy",
+    "question": "What is Eight-Handled Sword Divergent Sila Divine General Mahoraga's ability?",
+    "answers": {
+      "A": "Murasaki",
+      "B": "Star Collapse",
+      "C": "Adapting",
+      "D": "Eternal Darkness"
+    },
+    "correctAnswer": "C"
+  },
+
+  {
+    "id": 28,
+    "anime": "Mob Psycho 100",
+    "difficulty": "easy",
+    "question": "What is the special ability possessed by the protagonist Shigeo Kageyama from 'Mob Psycho 100'?",
+    "answers": {
+      "A": "Telekinesis",
+      "B": "Pyrokinesis",
+      "C": "Teleportation",
+      "D": "Invisibility"
+    },
+    "correctAnswer": "A"
+  },
+
+  {
+    "id": 29,
+    "anime": "Mob Psycho 100",
+    "difficulty": "easy",
+    "question": "Who is the main antagonist of the first season of 'Mob Psycho 100'?",
+    "answers": {
+      "A": "Koyama",
+      "B": "Dimple",
+      "C": "Claw",
+      "D": "Shimazaki"
+    },
+    "correctAnswer": "C"
+  },
+
+  {
+    "id": 30,
+    "anime": "Haikyuu!!",
+    "difficulty": "medium",
+    "question": "In 'Haikyuu!!', what position does Hinata Shouyou play on the volleyball team?",
+    "answers": {
+      "A": "Setter",
+      "B": "Libero",
+      "C": "Wing Spiker",
+      "D": "Middle Blocker"
+    },
+    "correctAnswer": "D"
+  },
+
+  {
+    "id": 31,
+    "anime": "Haikyuu!!",
+    "difficulty": "easy",
+    "question": "What is Kageyama Tobio's nickname?",
+    "answers": {
+      "A": "The Little Giant",
+      "B": "The Great King",
+      "C": "The Ultimate Setter",
+      "D": "The King of the Court"
+    },
+    "correctAnswer": "D"
+  },
+
+  {
+    "id": 32,
+    "anime": "No Game No Life",
+    "difficulty": "medium",
+    "question": "Who is the deity who rules over Disboard in 'No Game No Life'?",
+    "answers": {
+      "A": "Izuna",
+      "B": "Tet",
+      "C": "Miko",
+      "D": "Artosh"
+    },
+    "correctAnswer": "B"
+  },
+
+  {
+    "id": 33,
+    "anime": "Death Note",
+    "difficulty": "easy",
+    "question": "What is the primary method used by Light Yagami to kill his victims with the Death Note?",
+    "answers": {
+      "A": "Stabbing",
+      "B": "Shooting",
+      "C": "Heart Attack",
+      "D": "Poisoning"
+    },
+    "correctAnswer": "C"
+  },
+
+  {
+    "id": 34,
+    "anime": "No Game No Life",
+    "difficulty": "medium",
+    "question": "What game is played between Sora and Chlammy Zell in the first episode of 'No Game No Life'?",
+    "answers": {
+      "A": "Poker",
+      "B": "Shogi",
+      "C": "Chess",
+      "D": "Shiritori"
+    },
+    "correctAnswer": "C"
+  },
+
+  {
+    "id": 35,
+    "anime": "Bungou Stray Dogs",
+    "difficulty": "medium",
+    "question": "In 'Bungou Stray Dogs', what is the name of the organization that Atsushi joins after encountering its members?",
+    "answers": {
+      "A": "Armed Detective Agency",
+      "B": "Port Mafia",
+      "C": "Guild",
+      "D": "Rats in the House of the Dead"
+    },
+    "correctAnswer": "A"
+  },
+  {
+    "id": 36,
+    "anime": "Bungou Stray Dogs",
+    "difficulty": "medium",
+    "question": "What is the special ability of Yukichi Fukuzawa from 'Bungou Stray Dogs'?",
+    "answers": {
+      "A": "All Men Are Equal",
+      "B": "Decay of Angels",
+      "C": "Corruption",
+      "D": "Rashomon"
+    },
+    "correctAnswer": "A"
+  },
+
+  {
+    "id": 37,
+    "anime": "Steins;Gate",
+    "difficulty": "easy",
+    "question": "What is the name of the main protagonist in 'Steins;Gate'?",
+    "answers": {
+      "A": "Rintarou Okabe",
+      "B": "Kurisu Makise",
+      "C": "Mayuri Shiina",
+      "D": "Suzuha Amane"
+    },
+    "correctAnswer": "A"
+  },
+  {
+    "id": 38,
+    "anime": "Steins;Gate",
+    "difficulty": "medium",
+    "question": "What device does Okabe use to send messages to the past?",
+    "answers": {
+      "A": "Time Machine",
+      "B": "Phone Microwave",
+      "C": "D-Mail",
+      "D": "Future Gadget"
+    },
+    "correctAnswer": "B"
+  },
+
+  {
+    "id": 39,
+    "anime": "Steins;Gate",
+    "difficulty": "easy",
+    "question": "Who is the self-proclaimed 'mad scientist' in 'Steins;Gate'?",
+    "answers": {
+      "A": "Itaru Hashida",
+      "B": "Rintarou Okabe",
+      "C": "Kurisu Makise",
+      "D": "Akiha Ryou"
+    },
+    "correctAnswer": "B"
+  },
+
+  {
+    "id": 40,
+    "anime": "Steins;Gate",
+    "difficulty": "medium",
+    "question": "Which character is a time traveler from the future in 'Steins;Gate'?",
+    "answers": {
+      "A": "Mayuri Shiina",
+      "B": "Kurisu Makise",
+      "C": "Suzuha Amane",
+      "D": "Rintarou Okabe"
     },
     "correctAnswer": "C"
   },
   {
-    "id": 4,
-    "anime": "Watamote",
-    "difficulty": "medium",
-    "question": "D",
+    "id": 41,
+    "anime": "Steins;Gate",
+    "difficulty": "easy",
+    "question": "What is the main theme of 'Steins;Gate'?",
     "answers": {
-      "A": "Tamako",
-      "B": "Chika",
-      "C": "Ichika",
-      "D": "Tomoko"
+      "A": "Romance",
+      "B": "Time Travel",
+      "C": "Mystery",
+      "D": "Adventure"
     },
-    "correctAnswer": "D"
+    "correctAnswer": "B"
   },
+
   {
-    "id": 5,
-    "anime": "Watamote",
+    "id": 42,
+    "anime": "Sousou no Frieren",
     "difficulty": "medium",
-    "question": "B",
+    "question": "What does Frieren seek to understand more after her journey?",
     "answers": {
-      "A": "Tamako",
-      "B": "Chika",
-      "C": "Ichika",
-      "D": "Tomoko"
+      "A": "Magic",
+      "B": "Human emotions",
+      "C": "Combat skills",
+      "D": "The past"
     },
     "correctAnswer": "B"
   },
   {
-    "id": 6,
-    "anime": "Watamote",
-    "difficulty": "hard",
-    "question": "A",
+    "id": 43,
+    "anime": "Vinland Saga",
+    "difficulty": "medium",
+    "question": "Where did Thorfinn live at the beginning of the series",
     "answers": {
-      "A": "Tamako",
-      "B": "Chika",
-      "C": "Ichika",
-      "D": "Tomoko"
+      "A": "Iceland",
+      "B": "Wales",
+      "C": "England",
+      "D": "Norway"
     },
     "correctAnswer": "A"
   },
-  {
-    "id": 7,
-    "anime": "Watamote",
-    "difficulty": "easy",
-    "question": "A",
-    "answers": {
-      "A": "Tamako",
-      "B": "Chika",
-      "C": "Ichika",
-      "D": "Tomoko"
-    },
-    "correctAnswer": "A"
-  },
-  {
-    "id": 8,
-    "anime": "Watamote",
-    "difficulty": "easy",
-    "question": "A",
-    "answers": {
-      "A": "Tamako",
-      "B": "Chika",
-      "C": "Ichika",
-      "D": "Tomoko"
-    },
-    "correctAnswer": "A"
-  }
 
+  {
+    "id": 44,
+    "anime": "Monogatari Series",
+    "difficulty": "hard",
+    "question": "What did the crab take from Hitagi Senjougahara in the 'Monogatari' series?",
+    "answers": {
+      "A": "Her sight",
+      "B": "Her weight",
+      "C": "Her smell",
+      "D": "Her virginity"
+    },
+    "correctAnswer": "B"
+  },
+
+  {
+    "id": 45,
+    "anime": "Monogatari Series",
+    "difficulty": "medium",
+    "question": "In the 'Monogatari' series, what is Koyomi Araragi's main ability?",
+    "answers": {
+      "A": "Time travel",
+      "B": "Healing others",
+      "C": "Vampirism",
+      "D": "Telepathy"
+    },
+    "correctAnswer": "C"
+  }
 ]
